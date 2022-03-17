@@ -22,7 +22,7 @@ To do decryption run the following command:
     ./prog dec <your_key>
     ```
     
-Note: replace the instances of <your_key> above with your 32 character key
+Note: replace the instances of <your_key> above with your 32 character key. I each case, follow the prompts from the program.
 
 ## **Details**
 - Your key must be exactly 32 characters long
