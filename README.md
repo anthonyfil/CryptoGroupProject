@@ -29,3 +29,9 @@ Note: replace the instances of <your_key> above with your key
 - For decryption, you need a file that contains the cipherted which you will be asked for when running the program
 - Running the encryption will create such a file named ctxt.txt
 - Since the initialization vector does not need to be secret, we have it pre-set to 32 0's as that is what we found worked best through testing
+## **Sources**
+The resources we used to learn how to use OpenSSL and how to invoke OpenSSL libraries (in particular EVP) in out c++ program are as follows:
+- OpenSSL: https://www.openssl.org/
+- OpenSSL documentation: https://www.openssl.org/docs/man3.0/man7/crypto.html
+- OpenSSL EVP: https://www.openssl.org/docs/man1.1.1/man7/evp.html
+- OpenSSL WIKI EVP: https://wiki.openssl.org/index.php/EVP
