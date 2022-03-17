@@ -21,6 +21,7 @@ To do decryption run the following command:
     ```
     ./prog dec <your_key>
     ```
+    
 Note: replace the instances of <your_key> above with your key
 
 ## **Details**
