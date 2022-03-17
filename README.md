@@ -5,6 +5,7 @@ Cryptography Group Project: Jacob Balin and Anthony Filippello
 To run this program you will need the folloing:
 - Have OpenSSL installed and functional on your machine
 - Capability of compiling with g++
+- Linux is recomended
 ## **Compile**
 To compile this program, please run the following command:
     ```
