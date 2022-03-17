@@ -1,6 +1,6 @@
 # CryptoGroupProject
 ### Cryptography Group Project: Jacob Balin and Anthony Filippello
-Demo video: https://oregonstate.zoom.us/rec/share/oFlEDzslsyYGbXlXTqmYjps0-mFsMDikOHszfJTUUSw2oMFlGf4MApoDb7gJrVQY.59cA9k2dDbLa8a6f?startTime=1647495179000 (Passcode: 3?.SKr@t)
+Demo video: https://oregonstate.zoom.us/rec/share/oFlEDzslsyYGbXlXTqmYjps0-mFsMDikOHszfJTUUSw2oMFlGf4MApoDb7gJrVQY.59cA9k2dDbLa8a6f?startTime=1647495179000
 
 ## **Prerequisites**
 To run this program you will need the folloing:
