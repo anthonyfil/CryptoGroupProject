@@ -1,5 +1,6 @@
 # CryptoGroupProject
-Cryptography Group Project: Jacob Balin and Anthony Filippello
+###Cryptography Group Project: Jacob Balin and Anthony Filippello
+Demo video: https://oregonstate.zoom.us/rec/share/oFlEDzslsyYGbXlXTqmYjps0-mFsMDikOHszfJTUUSw2oMFlGf4MApoDb7gJrVQY.59cA9k2dDbLa8a6f?startTime=1647495179000 (Passcode: 3?.SKr@t)
 
 ## **Prerequisites**
 To run this program you will need the folloing:
@@ -37,3 +38,6 @@ The resources we used to learn how to use OpenSSL and how to invoke OpenSSL libr
 - OpenSSL documentation: https://www.openssl.org/docs/man3.0/man7/crypto.html
 - OpenSSL EVP: https://www.openssl.org/docs/man1.1.1/man7/evp.html
 - OpenSSL WIKI EVP: https://wiki.openssl.org/index.php/EVP
+
+## **Write up**
+For this project we used OpenSSL to perform camellia encryption and decryption. In particular we used camellia with a 256 bit key. Becuase camellia is a Feistel cipher, and becuse we are using 256 bit keys, that means that the encryption is a 24 round Feistel cipher, meaning our encryption program is CCA secure. We are assuming that both parties (Alice and Bob) have the key ahead of time. When Alice runs the encryption function of our program, she is given a text file containing the ciphertext. She can then send that ciphertext to Bob however she likes (email, discord, etc.). Now that Bob has the ciphert text file, he can run the decryption function of our program to decrypt the ciphertex. Importantly, the only information being transfered over a network is the ciphertext file. That means that the only information Eve has access to is the ciphertext file. And since the encryption schemeis CCA secure, then Alice and Bob have successfully communicated securely.
